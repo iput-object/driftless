@@ -23,20 +23,20 @@
     "packages/cli"
   ],
   "devDependencies": {
-    "@cloudflare/workers-types": "^4.20241022.0",
+    "@cloudflare/workers-types": "^5.20261110.1",
     "@types/better-sqlite3": "^9.6.0",
     "@types/node": "^22.9.0",
     "typescript": "^5.6.3",
     "vitest": "^2.1.4",
-    "wrangler": "^3.84.0"
+    "wrangler": "^4.160.0"
   },
   "dependencies": {
-    "hono": "^4.6.8",
-    "zod": "^3.23.8",
     "@libsql/client": "^0.15.15",
     "chokidar": "^4.0.3",
+    "esbuild": "^0.25.0",
+    "hono": "^4.6.8",
     "tsx": "^4.19.2",
-    "esbuild": "^0.25.0"
+    "zod": "^3.23.8"
   },
   "allowScripts": {
     "esbuild@0.21.5": true,
